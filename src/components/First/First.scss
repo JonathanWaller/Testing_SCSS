@@ -1,6 +1,14 @@
-$blueColor: green;
+$greenColor: green;
+$blueColor: blue;
+
+nav {
+  a {
+    color: red;
+  }
+}
 
 .first__text {
-  color: $blueColor;
+  color: $greenColor;
   border: 1px solid red;
+  background: $blueColor;
 }
