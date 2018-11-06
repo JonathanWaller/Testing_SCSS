@@ -1,5 +1,6 @@
 $greenColor: green;
-$blueColor: blue;
+$greyColor: lightgrey;
+$orangeColor: orange;
 
 nav {
   a {
@@ -10,5 +11,12 @@ nav {
 .first__text {
   color: $greenColor;
   border: 1px solid red;
-  background: $blueColor;
+  background: $greyColor;
+}
+
+.second__text {
+  border: 1px solid purple;
+  div {
+    color: $orangeColor;
+  }
 }

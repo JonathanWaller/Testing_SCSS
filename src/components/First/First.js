@@ -22,6 +22,10 @@ class First extends Component {
           Testing...my name is {this.state.name}
         </div>
         <a>Click here</a>
+        <div className="second__text">
+          Testing from second__text
+          <div>Nested inside second__text</div>
+        </div>
       </div>
     );
   }
